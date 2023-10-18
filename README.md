@@ -1,4 +1,4 @@
-# Typr: Your Personal Terminal Typing Tutor.
+# Typr: Your Personal Typing Tutor.
 
 ## Description 📜 
 > Typr is a Python-based application that utilizes the 'rich' module to provide you with a simple yet satisfying feel when doing typing test. Typr is designed to be simple & easy to use; great for testing your skills & improving as a typist whenever you would like.
