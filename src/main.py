@@ -27,7 +27,6 @@ plyr_response = str()
 
 
 def generateChallengeText(numOfWords, wordList):
-    wordList = "/home/daksh/Documents/TyprCLI/src/WordLists/Loki_Word_List_EN.txt"
     challengeText = []
 
     with open(wordList, "r") as currentText:
@@ -167,7 +166,11 @@ if __name__ == "__main__":
 
     # Defaults
     wordCount: int = 10
-    wordList = "/WordLists/Loki_Word_List_EN.txt"
+
+    # Get the directory of the currently executing script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    wordList = os.path.join(script_dir, "WordLists", "Loki_Word_List_EN.txt")
+    print(wordList)
 
 
     # Setting up run time flags for typr
