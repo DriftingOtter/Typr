@@ -26,6 +26,14 @@ plyr_response = str()
 
 
 
+# Setting up run time flags for typr
+parser = argparse.ArgumentParser(description="Typr: A Simple Terminal Typing Test", add_help=False)
+parser.add_argument("-wc", "--wordcount", type=int, help="Required word count for the test")
+parser.add_argument("-wl", "--wordlist", help="Path to the word list file")
+parser.add_argument("-h", "--help", action="store_true", help="Show help message")
+
+
+
 def generateChallengeText(numOfWords, wordList):
     challengeText = []
 
@@ -161,25 +169,24 @@ def displayUserScore(testResults):
 
 
 if __name__ == "__main__":
-
     os.system("clear")
+
 
     # Defaults
     wordCount: int = 10
 
+
+
     # Get the directory of the currently executing script
     script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Builds Default Word List Path
     wordList = os.path.join(script_dir, "WordLists", "Loki_Word_List_EN.txt")
-    print(wordList)
 
 
-    # Setting up run time flags for typr
-    parser = argparse.ArgumentParser(description="Typr: A Simple Terminal Typing Test", add_help=False)
-    parser.add_argument("-wc", "--wordcount", type=int, help="Required word count for the test")
-    parser.add_argument("-wl", "--wordlist", help="Path to the word list file")
-    parser.add_argument("-h", "--help", action="store_true", help="Show help message")
-
+    # Collect Given Run-Time Flags
     args = parser.parse_args()
+
 
 
     if args.help:
