@@ -1,7 +1,7 @@
 [project]
 name = "Typr"
 
-version = "1.0.1.4"
+version = "1.0.1.5"
 
 description = "Typr is a beautiful & simple typing test application that runs in your cli of choice<3"
 

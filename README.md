@@ -3,7 +3,7 @@
 # Typr: Your Personal Typing Tutor :keyboard:.
 
 ## Description 📜 
-> typr is a Python-based application that utilizes the 'rich' module to provide you with a simple yet satisfying feel when doing typing test. typr is designed to be simple & easy to use; great for testing your skills & improving as a typist whenever you would like.
+> typr is a Python-based application that utilizes the 'rich' module to provide you with a simple yet satisfying tui when typing, typr is designed to be simple & easy to use; Whenever you want a simple but satisfying typing test tool.
 
 ## Installation Guide
 1. Check Python Version:
@@ -38,28 +38,28 @@ alias typr="python3 /path/to/TyprCLI/src/main.py"
 ```
 
 #### Zsh
-Add the following line to your __~/.bashrc__ file
+Add the following line to your __~/.bashrc__ file:
 
 ```
 alias typr="python3 /path/to/TyprCLI/src/main.py"
 ```
 
 #### Fish
-Add the following line to your __~/.config/fish/config.fish__ file
+Add the following line to your __~/.config/fish/config.fish__ file:
 
 ```
 alias typr="python3 /path/to/TyprCLI/src/main.py"
 ```
 
 #### Xonsh
-Add the following line to your __~/.xonshrc__ file
+Add the following line to your __~/.xonshrc__ file:
 
 ```
 aliases['typr'] = 'python3 /path/to/TyprCLI/src/main.py'
 ```
 
 #### Nu
-Add the following line to your __~/.config/nu/config.toml__ file
+Add the following line to your __~/.config/nu/config.toml__ file:
 
 ```
 alias "typr" {"python3 /path/to/TyprCLI/src/main.py"}
@@ -72,7 +72,7 @@ Open a new terminal window and type typr. It should execute your typr applicatio
 ___You can also run ```typr -h``` to output the manual page for the application to see all the addional run-time flags you can utilize.___
 
 ## Acknowledgements
-- For Astronaut Logo
-https://www.freepik.com/free-vector/cute-astronaut-working-with-laptop-space-cartoon-vector-icon-illustration-science-technology_42161336.htm#query=keyboard&position=13&from_view=search&track=sph
+- [Freepik.com]((https://www.freepik.com/free-vector/cute-astronaut-working-with-laptop-space-cartoon-vector-icon-illustration-science-technology_42161336.htm#query=keyboard&position=13&from_view=search&track=sph)
+) for astronaut logo
 
 ___(Image by catalyststuff on Freepik)___
