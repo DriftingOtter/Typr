@@ -6,6 +6,7 @@ import random
 import time
 import os
 import argparse
+import curses
 
 from rich import print
 from rich.traceback import install
@@ -97,6 +98,10 @@ def accuracy(plyr_response, challengeText):
     except ZeroDivisionError:
         accuracyPercentage = "INVALID"
 
+
+    if accuracyPercentage <= 0:
+        accuracyPercentage = "INVALID"
+
     return accuracyPercentage
 
 
@@ -105,6 +110,9 @@ def timeTaken(time_START, time_STOP):
     try:
         timetaken = int(time_STOP - time_START)
     except ZeroDivisionError:
+        timetaken = "INVALID"
+
+    if timetaken <= 0:
         timetaken = "INVALID"
 
     return timetaken
@@ -118,6 +126,9 @@ def wordsPerMinute(time_START, time_STOP, plyr_response):
         wordsPerMinute = wordsTyped / timeTakenInMinutes
         wordsPerMinute = round(wordsPerMinute)
     except ZeroDivisionError:
+        wordsPerMinute = "INVALID"
+
+    if wordsPerMinute <= 0 or wordsPerMinute > 400:
         wordsPerMinute = "INVALID"
 
     return wordsPerMinute
@@ -143,7 +154,7 @@ def displayUserScore(testResults):
             print(
                 Panel(
                     f"[bold green]Accuracy: [/]{testResults[0]}%\n[bold yellow]Time Taken: [/]{testResults[1]}s\n[bold purple]Words Per Minute: [/]{testResults[2]}",
-                    title="[bold italic green]You Did It! Wanna Do Another ?[/]",
+                    title="[bold italic green]You Did It! Wanna Do Another?[/]",
                 )
             )
 
