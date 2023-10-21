@@ -9,16 +9,18 @@
 name: "typr: Your Personal Typing Tutor."
 
 on:
-  release: Linux, OSX, and Windows
-  types: [published]
+  release:
+    types:
+      - created
+    branches:
+      - main
 
 permissions:
   contents: read
 
 jobs:
   deploy:
-
-    runs-on: Linux, OSX, and Windows
+    runs-on: Linux, macOS, Windows
 
     steps:
     - uses: actions/checkout@v3
@@ -38,3 +40,4 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
+
