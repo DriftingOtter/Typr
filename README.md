@@ -75,4 +75,6 @@ ___You can also run ```typr -h``` to output the manual page for the application 
 - [Freepik.com]((https://www.freepik.com/free-vector/cute-astronaut-working-with-laptop-space-cartoon-vector-icon-illustration-science-technology_42161336.htm#query=keyboard&position=13&from_view=search&track=sph)
 ) for astronaut logo
 
+- [katto-studios]((https://github.com/katto-studios/loki)) for the default wordlist
+
 ___(Image by catalyststuff on Freepik)___
