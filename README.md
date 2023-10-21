@@ -3,14 +3,22 @@
 # Typr: Your Personal Typing Tutor :keyboard:.
 
 ## Description 📜 
-> typr is a Python-based application that utilizes the 'rich' module to provide you with a simple yet satisfying tui when typing, typr is designed to be simple & easy to use; Whenever you want a simple but satisfying typing test tool.
+> typr is a Python-based application that utilizes the *'rich'* module to provide you with a simple yet satisfying tui when typing, typr is designed to be simple & easy to use; Whenever you want a simple but satisfying typing test tool.
 
 ## Installation Guide
 1. Check Python Version:
 
 Ensure you have Python 3.8 or higher installed. If not, install it from the [official Python website](https://www.python.org/).
 
-2. Clone Your typr Repository:
+2. Install rich Python Module
+
+If you have not already done so, install the [rich](https://pypi.org/project/rich/) Python module, as it's a *critical* library for typr.
+
+```
+pip install rich
+```
+
+3. Clone Your typr Repository:
 
 Clone typr repository to your desired location using Git
 
@@ -20,11 +28,11 @@ git clone https://github.com/your-username/TyprCLI.git
 cd TyprCLI
 ```
 
-3. Locate main.py:
+4. Locate main.py:
 
 Make sure you know the correct path to your main.py file within the __TyprCLI/src/__ directory you just cloned.
 
-4. Set up Aliases ___(Optional)*___
+5. Set up Aliases ___(Optional)*___
 
 Please check with your shell's documentation on how to add aliases to your rc files.
 
@@ -74,6 +82,7 @@ ___You can also run ```typr -h``` to output the manual page for the application 
 ## Acknowledgements
 - [Freepik.com](https://www.freepik.com/free-vector/cute-astronaut-working-with-laptop-space-cartoon-vector-icon-illustration-science-technology_42161336.htm#query=keyboard&position=13&from_view=search&track=sph) for astronaut logo
 
+___(Image by catalyststuff on Freepik)___
+
 - [katto-studios](https://github.com/katto-studios/loki) for the default word list
 
-___(Image by catalyststuff on Freepik)___
