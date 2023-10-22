@@ -89,13 +89,6 @@ Add the following line to your __~/.xonshrc__ file:
 aliases['typr'] = 'python3 /path/to/TyprCLI/src/main.py'
 ```
 
-#### Nu
-Add the following line to your __~/.config/nu/config.toml__ file:
-
-```
-alias "typr" {"python3 /path/to/TyprCLI/src/main.py"}
-```
-
 5. Test The Alias
 
 Open a new terminal window and type typr. It should execute your typr application.
