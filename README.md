@@ -23,7 +23,7 @@ pip install rich
 Clone typr repository to your desired location using Git
 
 ```
-git clone https://github.com/your-username/TyprCLI.git
+git clone https://github.com/DriftingOtter/Typr.git
 
 cd TyprCLI
 ```
