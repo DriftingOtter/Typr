@@ -6,11 +6,34 @@
 > typr is a Python-based application that utilizes the *'rich'* module to provide you with a simple yet satisfying tui when typing, typr is designed to be simple & easy to use; Whenever you want a simple but satisfying typing test tool.
 
 ## Installation Guide
+
 1. Check Python Version:
 
 Ensure you have Python 3.8 or higher installed. If not, install it from the [official Python website](https://www.python.org/).
 
-2. Install rich Python Module
+### Quick Install
+
+1. Clone typr Repository:
+
+Clone typr repository to your desired location.
+
+```
+git clone https://github.com/DriftingOtter/Typr.git
+
+cd TyprCLI
+```
+
+2. Run install script:
+
+```
+chmod -x install.sh
+
+./install.sh
+```
+
+### Manual Install // Manual Build
+
+1. Install rich Python module:
 
 If you have not already done so, install the [rich](https://pypi.org/project/rich/) Python module, as it's a *critical* library for typr.
 
@@ -18,7 +41,7 @@ If you have not already done so, install the [rich](https://pypi.org/project/ric
 pip install rich
 ```
 
-3. Clone Your typr Repository:
+2. Clone typr Repository:
 
 Clone typr repository to your desired location using Git
 
@@ -28,11 +51,11 @@ git clone https://github.com/DriftingOtter/Typr.git
 cd TyprCLI
 ```
 
-4. Locate main.py:
+3. Locate main.py:
 
 Make sure you know the correct path to your main.py file within the __TyprCLI/src/__ directory you just cloned.
 
-5. Set up Aliases ___(Optional)*___
+4. Set up Aliases ___(Optional)*___
 
 Please check with your shell's documentation on how to add aliases to your rc files.
 
