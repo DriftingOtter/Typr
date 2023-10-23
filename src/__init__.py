@@ -1,2 +1,1 @@
-def main():
-    pass
+from src import main

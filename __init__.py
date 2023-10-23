@@ -1,2 +1,1 @@
-from src import main
 
