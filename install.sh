@@ -2,9 +2,9 @@
 
 # Introductory Message
 echo "============================================================"
-echo "Typr: Your Personal Typing Tutor :keyboard:."
+echo "Typr: Your Personal Typing Tutor."
 echo ""
-echo "Description 📜"
+echo "Description"
 echo "> typr is a Python-based application that utilizes the *'rich'* module to provide you with a simple yet satisfying tui when typing, typr is designed to be simple & easy to use; Whenever you want a simple but satisfying typing test tool."
 echo "============================================================"
 echo ""
