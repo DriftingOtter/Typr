@@ -1,9 +1,12 @@
-![typr logo of an astronaut using a keyboard](https://github.com/DriftingOtter/Typr/blob/main/assets/Typr_Astro.png)
+<img src="https://github.com/DriftingOtter/Typr/blob/main/assets/Typr_Astro.png" alt="Typr logo of an astronaut using a keyboard" width="500" height="500">
 
 # Typr: Your Personal Typing Tutor :keyboard:.
-
 ## Description 📜 
 > typr is a Python-based application that utilizes the *'rich'* module to provide you with a simple yet satisfying tui when typing, typr is designed to be simple & easy to use; Whenever you want a simple but satisfying typing test tool.
+
+
+[![asciicast](https://asciinema.org/a/617774.svg)](https://asciinema.org/a/617774)
+
 
 ## Installation Guide
 
