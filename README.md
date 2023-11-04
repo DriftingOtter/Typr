@@ -1,4 +1,4 @@
-<img src="https://github.com/DriftingOtter/Typr/blob/main/assets/Typr_Astro.png" alt="Typr logo of an astronaut using a keyboard" width="500" height="500">
+<img src="https://github.com/DriftingOtter/Typr/blob/main/assets/Typr_Astro.png" alt="Typr logo of an astronaut using a keyboard">
 
 # Typr: Your Personal Typing Tutor :keyboard:.
 ## Description 📜 
