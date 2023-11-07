@@ -29,7 +29,7 @@ cd TyprCLI
 2. Run install script:
 
 ```
-chmod -x install.sh
+chmod +x install.sh
 
 ./install.sh
 ```
