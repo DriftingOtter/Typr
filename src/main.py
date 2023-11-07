@@ -6,7 +6,6 @@ import random
 import time
 import os
 import argparse
-import curses
 
 from rich import print
 from rich.traceback import install
@@ -179,7 +178,7 @@ def displayUserScore(testResults):
 
 
 
-if __name__ == "__main__":
+def main():
     os.system("clear")
 
 
@@ -223,12 +222,12 @@ if __name__ == "__main__":
 
     [italic blue]3.[/] [yellow]-wl[/] <file path> [bold]or[/] [yellow]--wordlist[/] <file path>
 
-    Gives typr a wanted word list that you want it to 
+    Gives typr a wanted word list that you want it to
     use to generate the test.
 
-    The file it self must have each word on a separate 
-    line, and should have no additional formatting like 
-    numbers, listing, images, or any extra information 
+    The file it self must have each word on a separate
+    line, and should have no additional formatting like
+    numbers, listing, images, or any extra information
     as it will not be able to parse the required data.
 
     [blue]ex.[/] [italic yellow]"/home/user/word_list.txt"[/]''',
@@ -260,3 +259,7 @@ if __name__ == "__main__":
     challengeText = conv_LTS(generateChallengeText(wordCount, wordList))
     displayChallengeText(challengeText)
     displayUserScore(calculateResults(test(), challengeText))
+
+
+if __name__ == "__main__":
+    main()
