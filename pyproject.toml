@@ -48,8 +48,12 @@ dependencies = [
 "Bug Reports" = "https://github.com/DriftingOtter/Typr/issues"
 "Funding" = "https://kofi.com/driftingotter"
 
-[tool.setuptools]
-package-data = {"sample" = ["*.dat"]}
+[tool.setuptools.package-data]
+"sample" = ["*.dat"]
+"typr" = ["WordLists/*.txt"]
+
+[project.scripts]
+typr = "typr.main:main"
 
 [build-system]
 requires = ["setuptools>=43.0.0", "wheel"]
