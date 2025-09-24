@@ -87,19 +87,19 @@ for choice in $SHELL_CHOICES; do
     case $choice in
     1)
         echo "Setting up Bash alias..."
-        echo "alias typr=\"python3 $CURRENT_DIR/src/main.py\"" >>~/.bashrc
+        echo "alias typr=\"python3 $CURRENT_DIR/src/typr/main.py\"" >>~/.bashrc
         ;;
     2)
         echo "Setting up Zsh alias..."
-        echo "alias typr=\"python3 $CURRENT_DIR/src/main.py\"" >>~/.zshrc
+        echo "alias typr=\"python3 $CURRENT_DIR/src/typr/main.py\"" >>~/.zshrc
         ;;
     3)
         echo "Setting up Fish alias..."
-        echo "alias typr=\"python3 $CURRENT_DIR/src/main.py\"" >>~/.config/fish/config.fish
+        echo "alias typr=\"python3 $CURRENT_DIR/src/typr/main.py\"" >>~/.config/fish/config.fish
         ;;
     4)
         echo "Setting up Xonsh alias..."
-        echo "aliases['typr'] = 'python3 $CURRENT_DIR/src/main.py'" >>~/.xonshrc
+        echo "aliases['typr'] = 'python3 $CURRENT_DIR/src/typr/main.py'" >>~/.xonshrc
         ;;
     *)
         echo "Invalid choice: $choice"
@@ -109,4 +109,3 @@ for choice in $SHELL_CHOICES; do
 done
 
 echo "Installation completed. Please restart your shell or run 'source ~/.bashrc' (or respective rc files) for the changes to take effect."
-
